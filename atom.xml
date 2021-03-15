@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HY</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-03-15T10:51:50.953Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>lee</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS 7 的目录结构介绍</title>
+    <link href="http://example.com/2021/03/15/CentOS-7-%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://example.com/2021/03/15/CentOS-7-%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D/</id>
+    <published>2021-03-15T09:38:16.000Z</published>
+    <updated>2021-03-15T10:51:50.953Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>linux简介</title>
+    <link href="http://example.com/2021/03/14/linux%E7%AE%80%E4%BB%8B/"/>
+    <id>http://example.com/2021/03/14/linux%E7%AE%80%E4%BB%8B/</id>
+    <published>2021-03-14T08:03:24.000Z</published>
+    <updated>2021-03-14T08:04:21.373Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Linux，全稱GNU /</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
