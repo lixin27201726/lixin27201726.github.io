@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-16T04:06:06.289Z</updated>
+  <updated>2021-03-16T05:02:22.504Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="http://example.com/2021/03/16/ROS%E5%9F%BA%E7%A1%80%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://example.com/2021/03/16/ROS%E5%9F%BA%E7%A1%80%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</id>
     <published>2021-03-16T04:02:15.000Z</published>
-    <updated>2021-03-16T04:06:06.289Z</updated>
+    <updated>2021-03-16T05:02:22.504Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;ROS基础常用命令&lt;br&gt;1、查看网卡接口：     /interface print &lt;br&gt;2、给网口添加IP地址： /ip address add address=192.168.1.254/24 interface=ether1 0&lt;br&gt;3、移除接口IP地址：　</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2021/03/16/ROS%E5%9F%BA%E7%A1%80%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ros.jpeg&quot; alt=&quot;ros&quot;&gt;&lt;/p&gt;
+&lt;p&gt;ROS基础常用命令&lt;br&gt;1、查看网卡接口：    </summary>
         
       
     
