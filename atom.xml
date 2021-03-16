@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-16T06:05:05.034Z</updated>
+  <updated>2021-03-16T05:30:06.427Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hexo搭建博客</title>
-    <link href="http://example.com/2021/03/16/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://example.com/2021/03/16/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2021-03-16T05:54:29.000Z</published>
-    <updated>2021-03-16T06:05:05.034Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;video src=&quot;ls.wmv&quot; type=&quot;video/mp4&quot; controls=&quot;controls&quot; width=&quot;100%&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>linux版本介绍</title>
