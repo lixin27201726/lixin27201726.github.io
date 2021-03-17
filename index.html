@@ -59,8 +59,8 @@
 	        
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
-                        总文章数 3
-                        总字数 1.4k
+                        总文章数 4
+                        总字数 2.1k
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
@@ -155,6 +155,151 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-CentOS 7 的目录结构介绍" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="CentOS-7-的目录结构介绍"><a href="#CentOS-7-的目录结构介绍" class="headerlink" title="CentOS 7 的目录结构介绍"></a><a target="_blank" rel="noopener" href="https://www.cnblogs.com/greamrod/p/12586356.html">CentOS 7 的目录结构介绍</a></h1><p><a target="_blank" rel="noopener" href="https://img2020.cnblogs.com/blog/1287655/202003/1287655-20200328111319424-654086741.png"><img src="https://img2020.cnblogs.com/blog/1287655/202003/1287655-20200328111319424-654086741.png" alt="img"></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>目录</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>/root</td>
+<td>该目录为系统管理员，也称作超级权限者的用户主目录。</td>
+</tr>
+<tr>
+<td>/home</td>
+<td>用户的主目录。在Linux中，每个用户都有一个自己的目录，一般该目录名是以用户的账号命名的。</td>
+</tr>
+<tr>
+<td>/bin—&gt;/usr/bin</td>
+<td>bin是Binary的缩写, 这个目录存放着最经常使用的命令。系统用户使用的应用程序。</td>
+</tr>
+<tr>
+<td>/sbin—&gt;/usr/sbin</td>
+<td>s就是Super User的意思，这里存放的是系统管理员使用的系统管理程序。超级用户使用的比较高级的管理程序和系统守护程序。</td>
+</tr>
+<tr>
+<td>/usr/local</td>
+<td>第三方源码包默认安装目录。类似windows下 C:\Program Files</td>
+</tr>
+<tr>
+<td>/etc</td>
+<td>系统和服务相关配置文件</td>
+</tr>
+<tr>
+<td>/var</td>
+<td>这个目录中存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件。</td>
+</tr>
+<tr>
+<td>/tmp</td>
+<td>临时文件存放目录</td>
+</tr>
+<tr>
+<td>/dev</td>
+<td>dev是Device(设备)的缩写, 该目录下存放的是Linux的外部设备，在Linux中访问设备的方式和访问文件的方式是相同的。</td>
+</tr>
+<tr>
+<td>/lib—&gt;/usr/lib</td>
+<td>库文件</td>
+</tr>
+<tr>
+<td>/lib64—&gt;/usr/lib64</td>
+<td>库文件</td>
+</tr>
+<tr>
+<td>/proc</td>
+<td>这个目录是一个虚拟的目录，它是系统内存的映射，我们可以通过直接访问这个目录来获取系统信息。这个目录的内容不在硬盘上而是在内存里，我们也可以直接修改里面的某些文件。</td>
+</tr>
+<tr>
+<td>/boot</td>
+<td>这里存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。</td>
+</tr>
+<tr>
+<td>/media</td>
+<td>linux系统会自动识别一些设备，例如U盘、光驱等等，当识别后，linux会把识别的设备挂载到这个目录下。</td>
+</tr>
+<tr>
+<td>/mnt</td>
+<td>系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将光驱挂载在/mnt/上，然后进入该目录就可以查看光驱里的内容了。</td>
+</tr>
+</tbody></table>
+<p><strong>绝对路径：</strong></p>
+<ul>
+<li>—定是以”/“（根）目录开头，它是唯一一个绝对能够描述文件所在路径的方式。</li>
+<li>“/“根目录是linux操作系统最顶级的目录，没有任何路径比它还要靠前。</li>
+<li>表示greamrod家目录：/home/greamrod/</li>
+</ul>
+<p><strong>相对路径：</strong></p>
+<ul>
+<li>路径是相对的，文件所在的路径是相对于当前所在路径而言的。</li>
+<li>当前路使用”<strong>./</strong>“表示；当前目录的上一级目录使用”<strong>..</strong>/“表示。</li>
+<li>当前用户家目录使用”<strong>~</strong>“表示；上次工作路径使用”<strong>-</strong>“表示。</li>
+</ul>
+<p><strong>路径切换和查看的相关命令：</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>命令</strong></th>
+<th><strong>含义</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>pwd</td>
+<td>查看当前工作路径</td>
+</tr>
+<tr>
+<td>cd</td>
+<td>更改工作路径，切换路径(默认切换到当前用户家目录）</td>
+</tr>
+</tbody></table>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/03/17/CentOS%207%20%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-linux版本介绍" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
