@@ -180,104 +180,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="CentOS-7-的目录结构介绍"><a href="#CentOS-7-的目录结构介绍" class="headerlink" title="[CentOS 7 的目录结构介绍]"></a>[CentOS 7 的目录结构介绍]</h1><p><img src="/2021/03/17/centos7-%E7%BB%93%E6%9E%84/boot.jpeg" alt="boot"></p>
-<table>
-<thead>
-<tr>
-<th><strong>目录</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>/root</td>
-<td>该目录为系统管理员，也称作超级权限者的用户主目录。</td>
-</tr>
-<tr>
-<td>/home</td>
-<td>用户的主目录。在Linux中，每个用户都有一个自己的目录，一般该目录名是以用户的账号命名的。</td>
-</tr>
-<tr>
-<td>/bin—&gt;/usr/bin</td>
-<td>bin是Binary的缩写, 这个目录存放着最经常使用的命令。系统用户使用的应用程序。</td>
-</tr>
-<tr>
-<td>/sbin—&gt;/usr/sbin</td>
-<td>s就是Super User的意思，这里存放的是系统管理员使用的系统管理程序。超级用户使用的比较高级的管理程序和系统守护程序。</td>
-</tr>
-<tr>
-<td>/usr/local</td>
-<td>第三方源码包默认安装目录。类似windows下 C:\Program Files</td>
-</tr>
-<tr>
-<td>/etc</td>
-<td>系统和服务相关配置文件</td>
-</tr>
-<tr>
-<td>/var</td>
-<td>这个目录中存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件。</td>
-</tr>
-<tr>
-<td>/tmp</td>
-<td>临时文件存放目录</td>
-</tr>
-<tr>
-<td>/dev</td>
-<td>dev是Device(设备)的缩写, 该目录下存放的是Linux的外部设备，在Linux中访问设备的方式和访问文件的方式是相同的。</td>
-</tr>
-<tr>
-<td>/lib—&gt;/usr/lib</td>
-<td>库文件</td>
-</tr>
-<tr>
-<td>/lib64—&gt;/usr/lib64</td>
-<td>库文件</td>
-</tr>
-<tr>
-<td>/proc</td>
-<td>这个目录是一个虚拟的目录，它是系统内存的映射，我们可以通过直接访问这个目录来获取系统信息。这个目录的内容不在硬盘上而是在内存里，我们也可以直接修改里面的某些文件。</td>
-</tr>
-<tr>
-<td>/boot</td>
-<td>这里存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。</td>
-</tr>
-<tr>
-<td>/media</td>
-<td>linux系统会自动识别一些设备，例如U盘、光驱等等，当识别后，linux会把识别的设备挂载到这个目录下。</td>
-</tr>
-<tr>
-<td>/mnt</td>
-<td>系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将光驱挂载在/mnt/上，然后进入该目录就可以查看光驱里的内容了。</td>
-</tr>
-</tbody></table>
-<p><strong>绝对路径：</strong></p>
-<ul>
-<li>—定是以”/“（根）目录开头，它是唯一一个绝对能够描述文件所在路径的方式。</li>
-<li>“/“根目录是linux操作系统最顶级的目录，没有任何路径比它还要靠前。</li>
-<li>表示greamrod家目录：/home/greamrod/</li>
-</ul>
-<p><strong>相对路径：</strong></p>
-<ul>
-<li>路径是相对的，文件所在的路径是相对于当前所在路径而言的。</li>
-<li>当前路使用”<strong>./</strong>“表示；当前目录的上一级目录使用”<strong>..</strong>/“表示。</li>
-<li>当前用户家目录使用”<strong>~</strong>“表示；上次工作路径使用”<strong>-</strong>“表示。</li>
-</ul>
-<p><strong>路径切换和查看的相关命令：</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>命令</strong></th>
-<th><strong>含义</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>pwd</td>
-<td>查看当前工作路径</td>
-</tr>
-<tr>
-<td>cd</td>
-<td>更改工作路径，切换路径(默认切换到当前用户家目录）</td>
-</tr>
-</tbody></table>
-
+        
+          <a class="article-more-a" href="/2021/03/17/centos7-%E7%BB%93%E6%9E%84/#more">more >></a>
+        
       
 
       
@@ -342,16 +247,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id=""><a href="#" class="headerlink" title=""></a><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/linux.jpeg" alt="linux"></h2><p><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/redhat.jpeg" alt="redhat"><br>一、Redhat系列<br>      目前许多高手都使用它，长相一般但却很强悍，一般是Linux高手的首选系统，相比之下就是桌面系统有点不大一样，拥有强大的rpm软件包管理系统，界面更加简洁，如果你不喜欢太多花哨的桌面系统可以考虑用它！ Redhat系列，包括RHEL(Redhat Enterprise Linux，也就是所谓的RedhatAdvance Server，收费版本)、FedoraCore(由原来的Redhat桌面版本发展而来，免费版本)、CentOS(RHEL的社区克隆版本，免费)。Redhat应该说是在国内使用人群最多的Linux版本，甚至有人将Redhat等同于Linux，而有些老鸟更是只用这一个版本的Linux。所以这个版本的特点就是使用人群数量大，资料非常多，言下之意就是如果你有什么不明白的地方，很容易找到人来问，而且网上的一般Linux教程都是以Redhat为例来讲解的。Redhat系列的包管理方式采用的是基于RPM包的YUM包管理方式，包分发方式是编译好的二进制文件。稳定性方面RHEL和CentOS的稳定性非常好，适合于服务器使用，但是Fedora Core的稳定性较差，最好只用于桌面应用。</p>
-<hr>
-<p><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/debian.jpeg" alt="debian"><br>二、Debian系列<br>     Debian系列，包括Debian和Ubuntu等。Debian是社区类Linux的典范，是迄今为止最遵循GNU规范的Linux系统。Debian最早由Ian Murdock于1993年创建，分为三个版本分支（branch）： stable, testing 和 unstable。其中，unstable为最新的测试版本，其中包括最新的软件包，但是也有相对较多的bug，适合桌面用户。testing的版本都经过unstable中的测试，相对较为稳定，也支持了不少新技术（比如SMP等）。而stable一般只用于服务器，上面的软件包大部分都比较过时，但是稳定和安全性都非常的高。Debian最具特色的是apt-get / dpkg包管理方式，其实Redhat的YUM也是在模仿Debian的APT方式，但在二进制文件发行方式中，APT应该是最好的了。Debian的资料也很丰富，有很多支持的社区，有问题求教也有地方可去。</p>
-<hr>
-<p><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/gentoo.jpeg" alt="gentoo"><br>三、Gentoo<br>     Gentoo，伟大的Gentoo是Linux世界最年轻的发行版本，正因为年轻，所以能吸取在她之前的所有发行版本的优点，这也是Gentoo被称为最完美的Linux发行版本的原因之一。Gentoo最初由Daniel Robbins（FreeBSD的开发者之一）创建，首个稳定版本发布于2002年。由于开发者对FreeBSD的熟识，所以Gentoo拥有媲美FreeBSD的广受美誉的ports系统——Portage包管理系统。不同于APT和YUM等二进制文件分发的包管理系统，Portage是基于源代码分发的，必须编译后才能运行，对于大型软件而言比较慢，不过正因为所有软件都是在本地机器编译的，在经过各种定制的编译参数优化后，能将机器的硬件性能发挥到极致。Gentoo是所有Linux发行版本里安装最复杂的，但是又是安装完成后最便于管理的版本，也是在相同硬件环境下运行最快的版本。</p>
-<hr>
-<p><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/freebsd.jpeg" alt="freebsd"><br>四、FreeBSD<br>     需要强调的是：FreeBSD并不是一个Linux系统！但FreeBSD与Linux的用户群有相当一部分是重合的，二者支持的硬件环境也比较一致，所采用的软件也比较类似，所以可以将FreeBSD视为一个Linux版本来比较。FreeBSD拥有两个分支：stable和current。顾名思义，stable是稳定版，而 current则是添加了新技术的测试版。FreeBSD采用Ports包管理系统，与Gentoo类似，基于源代码分发，必须在本地机器编后后才能运行，但是Ports系统没有Portage系统使用简便，使用起来稍微复杂一些。FreeBSD的最大特点就是稳定和高效，是作为服务器操作系统的最佳选择，但对硬件的支持没有Linux完备，所以并不适合作为桌面系统。</p>
-<hr>
-<p><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/opensuse.jpeg" alt="opensuse"><br>五、OpenSUSE<br>      OpenSUSE：在欧洲非常流行的一个Linux，由Novell公司发放，号称是世界上最华丽的操作系统，独家开发的软件管理程序zypper|| yast得到了许多用户的赞美，和ubuntu一样，支持kde和gnome，xface等桌面，桌面特效比较丰富，缺点是KDE虽然华丽多彩，但比较不 稳定。新手用这个也很容易上手。</p>
-
+        <p><img src="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/linux.jpeg" alt="linux"></p>
+        
+          <a class="article-more-a" href="/2021/03/16/linux%E7%89%88%E6%9C%AC%E4%BB%8B%E7%BB%8D/#more">more >></a>
+        
       
 
       
