@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-18T10:08:30.977Z</updated>
+  <updated>2021-03-19T05:46:36.631Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux系统值得一看的学习方法及路线图</title>
+    <link href="http://example.com/2021/03/19/Linux%E7%B3%BB%E7%BB%9F%E5%80%BC%E5%BE%97%E4%B8%80%E7%9C%8B%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%8F%8A%E8%B7%AF%E7%BA%BF%E5%9B%BE/"/>
+    <id>http://example.com/2021/03/19/Linux%E7%B3%BB%E7%BB%9F%E5%80%BC%E5%BE%97%E4%B8%80%E7%9C%8B%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%8F%8A%E8%B7%AF%E7%BA%BF%E5%9B%BE/</id>
+    <published>2021-03-19T05:43:14.000Z</published>
+    <updated>2021-03-19T05:46:36.631Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Linux系统值得一看的学习方法及路线图&quot;&gt;&lt;a href=&quot;#Linux系统值得一看的学习方法及路线图&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>linux防火墙命令</title>
