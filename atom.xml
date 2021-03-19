@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-19T05:46:36.631Z</updated>
+  <updated>2021-03-19T06:01:48.455Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="http://example.com/2021/03/19/Linux%E7%B3%BB%E7%BB%9F%E5%80%BC%E5%BE%97%E4%B8%80%E7%9C%8B%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%8F%8A%E8%B7%AF%E7%BA%BF%E5%9B%BE/"/>
     <id>http://example.com/2021/03/19/Linux%E7%B3%BB%E7%BB%9F%E5%80%BC%E5%BE%97%E4%B8%80%E7%9C%8B%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%8F%8A%E8%B7%AF%E7%BA%BF%E5%9B%BE/</id>
     <published>2021-03-19T05:43:14.000Z</published>
-    <updated>2021-03-19T05:46:36.631Z</updated>
+    <updated>2021-03-19T06:01:48.455Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Linux系统值得一看的学习方法及路线图&quot;&gt;&lt;a href=&quot;#Linux系统值得一看的学习方法及路线图&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;Linux系统值得一看的学习方法及路线图&quot;&gt;&lt;a href=&quot;#Linux系统值得一看的学习方法及路线图&quot; class=&quot;headerlink&quot; title=&quot;Linux系统值得一看的学习方法及路线图&quot;&gt;&lt;/a&gt;Linux系统值得一看的学习方法及路线图&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;网络是一个很神奇的东西，现代人的生活离不开网络，网络已深入人们的工作，生活，娱乐等方方面面。网络之所以无处不在，是因为它提供了诸多的网络服务，所以网络服务是网络的灵魂。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;互联网上的各种网络服务是架构在各种各样的服务器上的。服务器（Server）是提供网络服务的物理载体，是一种计算机，只不过它是一种功能更为强大的计算机，特别是在网络应用服务方面。在服务器中安装有操作系统，就如普通PC中安装有&lt;a href=&quot;http://www.ttlsa.com/windows/&quot;&gt;Windows&lt;/a&gt; 7，Windows 8或者Windows 10一样。服务器中运行的操作系统一般常被称为服务器操作系统，或者叫网络操作系统。网络操作系统管理着互联网中各种各样的服务：DHCP,FTP,Web,E-mail,DNS,流媒体,网络游戏等，没有网络操作系统，人们就无法享受到各种网络服务。目前主流的网络操作系统有Windows和&lt;a href=&quot;http://www.ttlsa.com/linux/&quot;&gt;Linux&lt;/a&gt;两种。&lt;/p&gt;</summary>
     
     
     
@@ -63,7 +59,7 @@
     <link href="http://example.com/2021/03/17/centos7-%E7%BB%93%E6%9E%84/"/>
     <id>http://example.com/2021/03/17/centos7-%E7%BB%93%E6%9E%84/</id>
     <published>2021-03-17T03:08:52.000Z</published>
-    <updated>2021-03-17T23:59:04.662Z</updated>
+    <updated>2021-03-19T05:48:57.870Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;CentOS-7-的目录结构介绍&quot;&gt;&lt;a href=&quot;#CentOS-7-的目录结构介绍&quot; class=&quot;headerlink&quot; title=&quot;[CentOS 7 的目录结构介绍]&quot;&gt;&lt;/a&gt;[CentOS 7 的目录结构介绍]&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/2021/03/17/centos7-%E7%BB%93%E6%9E%84/boot.jpeg&quot; alt=&quot;boot&quot;&gt;&lt;/p&gt;</summary>
